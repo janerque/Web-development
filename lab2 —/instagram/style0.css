@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.phone{/*photo of phone*/
+    padding-top: 70px;
+    height:600px;
+    float:left;
+    margin-left:250px;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+.container{/*all*/
+    margin-top: 20px;
+}
+.right_column{/*insta block*/
+    background: rgb(255, 255, 255);
+    border:1px solid rgb(230, 230, 230);
+    width:280px;
+    height:330px;
+    padding:40px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 10px;
+
+}
+.inst_logo{/*logotyp*/
+    margin-top:10px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    width:190px;
+    height:60px;
+
+}
+.or{
+    margin-top:15px ;
+    margin-right: 0px;
+    margin-bottom:10px ;
+    height: 15px;
+    display: flex;/*look for*/
+    align-items: center;
+}
+.line{
+   width: 90px;
+   height: 2px;
+   background: #efefef; 
+}
+.or1{
+    font-size: 13px;
+    color:rgb(153, 153, 153);
+    margin:0px 27px 0px 27px;
+}
+
+.form_group{
+    margin-bottom: 6px;
+}
+input{
+    background: rgb(250, 250, 250);
+    border:1px solid rgb(239, 239, 239);
+    font-size:12px;
+    width:260px;
+    height:40px;
+    border-radius: 4px;
+}
+::placeholder{
+    color:rgb(153, 153, 153);
+    padding:6px;
+}
+.btn{/*login*/
+    margin:12px auto;
+    padding:2px;
+    font-weight:600;
+    background:rgb(56, 151, 240) ;
+    border:1px solid rgb(56, 151, 240);
+    margin-left:0px;
+    height:35px;
+    width:260px;
+    border-radius: 6px;
+    color:white;
+}
+
+.register{
+    background: rgb(255, 255, 255) ;
+    border:1px solid rgb(230, 230, 230);
+    width:320px;
+    margin:10px;
+    padding:20px;
+    float:right;
+    margin-right: 200px;
+}
+.register a{
+    color:#3897f0;
+}
+
+.drugoe .btn_facebook{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.drugoe .btn_facebook .fb_logo{
+    width: 16px;
+    height: 16px;
+}
+.drugoe .btn_facebook p{
+    color: #385185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.drugoe .forgot{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 32px;
+}
+.drugoe .forgot a{
+    color: #003569 ;
+}
+.apps{
+   text-align: center;
+   color: #262626; 
+   margin-right:150px ;
+}
+.apps p{
+    margin-bottom: 20px;
+
+}
+.apps a img{
+    width: 135px;
+    height: 40px;
+    margin-top:0 ;
+    margin-right: 5px;
+}
+.footer{
+    max-width: 935px;
+    width: 100%;
+    margin:0 auto;
+    padding: 40px 0 ;
+    display: flex;
+}
+.links ul li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.links ul li a{
+    font-size: 12px;
+    color:#003569;
+
+}
+.copy{
+    color:#999;
+    font-size: 12px;
+}
