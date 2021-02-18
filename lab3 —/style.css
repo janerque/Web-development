@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sticky{
+    background: black;
+    color: grey;
+    position: sticky;
+    top:0;
+    padding: 18px;
+    padding-left: 60px;
+}
+.todoList {
+    margin-top: 70px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    width: 560px;
+    height: 150px;
+    
+}
+.content {
+    padding-top: 30px;
+}
+.add{
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.content input[type='text'] {
+    width: 450px;
+    padding: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 6px;
+    margin-left:40px;
+}
+.addBtn {
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:15px;
+    background: rgb(47, 117, 207);
+    color: white;
+    font-size: 9px;
+    border-radius: 3px;   
+} 
+.addBtn:hover {
+    background-color:rgb(151, 182, 221);
+}
+.todos{
+    margin-left: 0;
+    padding: 0;
+    height: 150px;
+    margin-top: 20px;
+}
+.goal{
+    border: 1px solid rgb(230, 230, 230);
+    padding:12px;
+    margin:0px;
+    border-radius: 5px;
+    width: 590px;
+}
+.goal_1{
+    border: 1px solid grey;
+    padding: 6px;
+    display: inline;
+    margin-right: 30px;
+    margin-top: 3px;
+    position: relative;
+    float: left;
+    -webkit-appearance: none;
+    border-radius: 3px;
+}
+
+div .goal_1:checked + span{
+    text-decoration: line-through;
+}
+.goal_1:checked::after{
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    color: rgb(230, 230, 230);
+    content: '\2713';
+}
+.new_goal{
+    width: 93%;
+    display: inline-block;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.goal_1:checked{
+    background:rgb(47, 117, 207);
+}
+.icon{
+    height: 20px;
+    float: right;
+}
+
